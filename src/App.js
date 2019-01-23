@@ -51,8 +51,12 @@ class App extends React.Component {
     walletNetwork: '',
     showDeprecatedBanner: false,
     selectorNetworks: [
-      ['main', 'Ethereum Mainnet', 'https://mainnet.aragon.org/'],
-      ['rinkeby', 'Ethereum Testnet (Rinkeby)', 'https://rinkeby.aragon.org/'],
+      ['main', 'Ethereum Mainnet', 'http://aragon.dappnode.eth'],
+      [
+        'rinkeby',
+        'Ethereum Testnet (Rinkeby)',
+        'http://rinkeby.aragon.dappnode.eth',
+      ],
     ],
   }
 
